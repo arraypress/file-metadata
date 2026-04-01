@@ -1,0 +1,15 @@
+{
+  "name": "@arraypress/file-metadata",
+  "version": "1.0.0",
+  "description": "Extract EXIF/IPTC metadata from images and ID3 tags from audio. Zero dependencies.",
+  "type": "module",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "exports": { ".": { "import": "./src/index.js", "types": "./src/index.d.ts" } },
+  "files": ["src"],
+  "scripts": { "test": "node --test tests/file-metadata.test.js" },
+  "keywords": ["exif", "iptc", "id3", "metadata", "image", "audio", "mp3", "jpeg"],
+  "author": "David Sherlock",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/arraypress/file-metadata" }
+}
